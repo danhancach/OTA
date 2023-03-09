@@ -1,0 +1,30 @@
+========================
+VoidUI Tiramisu Project is back!
+========================
+Based on Android 13 QPR1 Release 30
+========================
+Features:
+* GameSpace
+* Own Updater & OTA updates
+* Included ART fixes for best device CPU support & Kryo585 optimizations
+* Per-app volume control
+* Full Screen Navigation mode
+* Full working AOD & Smartspace
+* GameProps with hides for popular games
+* Custom QS Tiles
+* Burn-in protection for status/navbar
+* Latest Crowdin tranlsations for all system customizations
+* Ignore window secure flags (Can make screenshots in any app)
+* And way more...
+
+Device Side Features implemented by VoidUI Team:
+* DC Dimming - Less hurt for your eyes
+* TouchFeature - Control your touchscreen in best way for your apps and games! Available in Gaming and Benchmark Profiles.
+* Qualcomm Perfomance System & Perfomance mode
+* DisplayFeature Service & Support of Vivid, Saturated, Original, P3 and sRGB Display Modes
+* Xiaomi VibratorFeature for proper device Haptics
+* Advanced Dolby Support (Miui Dolby Engine + OnePlus App to control + Dolby AC3 Works with Apple Music)
+* Fixed for Modem crashes in specific environments
+* Using latest Snapdragon LLVM OEM Compiler for kernel compilations
+* And way more...
+========================
