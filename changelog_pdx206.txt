@@ -1,3 +1,12 @@
+
+========================
+12/03
+========================
+* Beta implementation of supported display features: HLG | HDR10_PLUS | DOLBY_VISION
+* Remove some gapps packages
+* Use FUSE passthrough mode by default
+* Linux v4.19.276
+
 ========================
 VoidUI Tiramisu Project is back!
 ========================
