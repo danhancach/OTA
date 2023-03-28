@@ -1,3 +1,11 @@
+========================
+28/03
+========================
+- Clean start on new base | Android 13 QPR2 Release 35
+- Based on Pixel Experience Plus QPR2 Release
+* Linux v4.19.279
+* Enable MGLRU
+* Fix loading calibration from TA (test)
 
 ========================
 12/03
