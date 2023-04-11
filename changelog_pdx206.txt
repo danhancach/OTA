@@ -1,4 +1,44 @@
 ========================
+11/04
+========================
+* Clean tree
+* Linux v4.19.280
+* Move CreatorMode & Pauser Charging to XperiaPart (Setting>System)[note: need to clean update]
+* Fix show setting camera button
+* Fix inverted microphone channels for camcorder
+- Beta Themes Rework in Process -
+- SystemUI: Follow light/dark theme in quick settings
+- SystemUI: Add dual-tone light and dark themes for QS
+- SystemUI: Follow light/dark theme in power menu
+- SystemUI: Fix QS mobile icon disappearing on theme switch
+- SystemUI: Match footer actions background with notifications background
+- SystemUI: fix black qqs on keyguard in light theme
+- SystemUI: Apply dark theming to split shade
+- SystemUI: Initialize QS tiles in inactive state
+- SystemUI: Remove nav bar background in QS customizer
+- Settings: Add a black background toggle
+- Settings: Toggle the neutral overlay when we toggle dark bg
+- Settings: add animation to dark mode preference
+- Settings: drop divider in dark mode screen
+- Settings: DarkMode: Use List Preference rather ugly Drop Down
+- SystemUI: Reset to textColorPrimaryInverse for light theme
+- Fix GameSpace Screen Recording
+- Turn on lava lamp or roving spotlight effect for media player
+- VoidUI: Add support of Themes [Beta]
+* Available in Settings - Display - Dark Theme - Use Custom Theme
+* Currently added: Black, Clear (transparent), Vivid, SnowPaintDrop, Espresso
+- Settings: Remove custom header
+- Rework supported Custom Preferences and add big amount of them back
+* Can be used for future various changes
+- PixelPropsUtils: Do not spoof device for ING Italia
+- PixelPropsUtils: Spoof back part of Google Apps to Pixel 5:
+* com.google.android.inputmethod.latin
+* com.google.android.setupwizard
+* com.google.android.googlequicksearchbox
+* com.google.android.apps.googleassistant
+- SystemUI: Do not translate FPS to other languages
+
+========================
 28/03
 ========================
 - Clean start on new base | Android 13 QPR2 Release 35
