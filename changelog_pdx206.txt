@@ -1,4 +1,31 @@
 ========================
+17/04
+========================
+* Linux v4.19.279 (stable)
+* Move XperiaParts to Home Settings
+* Fix Voice Assist key
+- Add Quick Unlock
+- Fix QS clock overlapping on UI mode change
+- Fix QS mobile icon disappearing on theme switch
+- AuthRippleView: Less Boring Dwell Ripple
+- Avoid unnecessary keyguard indication controller recreation
+- Fix background activity start. 
+- Use lighter material you shades for charging animation
+- Allow scheduling always on display
+(Settings -> Display -> Lock Screen -> Always on display scheldule)
+- vendor/custom-preferences:
+* Rework entirely all custom changes
+* Clean import of ColorPicker with adapting all changes to current enviromnent
+* Clean import of CustomSeekbarPreference
+* Clean import of SwitchPreference
+* Update of ColorPicker, CustomSeekbarPreference to latest versions
+* Cleanup huge amount of unused changes
+- This update fixing charging ripple animations and making Themes looks and work way better
+- device_config: Remove extra pixel launcher search features
+* causes increased drain in non tensor devices
+- Paint: Enable subpixel text positioning by default
+
+========================
 11/04
 ========================
 * Clean tree
