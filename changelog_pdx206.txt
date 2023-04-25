@@ -1,4 +1,42 @@
 ========================
+24/04
+========================
+* Linux v4.19.280 (stable)
+* Drop Qualcomm WFD
+* Update Hotword permissions
+- Add an option to force LTE CA
+(LTE Carrier Aggregation, means to connect to several LTE in same time)
+- Add back APT-X prebuilts | Thanks to t.me/candy2001 for testing / reporting
+- vendor_custom-preference: Fixup change related to SwitchPreference
+- [Bugfix]Switch back to the application on /system when UID and path changed
+- [Bugfix]fix NullPointException when pkg is null
+- [Bugfix]fix NullPointException when PackageInfo's verifiers is null 
+- Return no optmization info for package "android"
+- PowerStatsService: Prevent NPE in BatteryTrigger.
+- Add toggle for 3-button navbar inversion
+- Add toggle for 60Hz refresh rate on battery saver
+- April Sec Patch Merge
+- PE side Translations update
+- April Gapps Update
+- Clean Resync / Clean Rebuild (Was reinstalling system)
+- SystemUI: Make clock & battery clickable again
+- Fixed VPN QS Tile
+- Revert "PixelPropsUtils: Spoof Pixel 7 Pro to some Google apps" 
+- PixelPropsUtils: Don't spoof fewer apps
+- JobScheduler: Respect allow-in-power-save perm
+- PhoneWindowManager: Fix wakeup and long-press actions of assistant key
+- SystemUI: Avoid unnecessary keyguard indication controller recreation
+- MetaKeyKeyListener: Disable locking of toggled modifier keys 
+- InputDevices: Fix Hungarian language overlay
+- InCallController: use click & double click effect for connect and disconnect
+- Telecomm: fix vibrate feedback not being provided with call connect for incoming
+- Change in-call vibration behavior
+- WifiDisplaySource: raise supported resolution to 1920x1080p60
+- WifiDisplaySource: allow overriding max wfd resolution with prop
+- Settings: AppInfo: Add time spent in app from Wellbeing 
+- Immersive Navigation: Add missing fb/SettingsProvider changes
+
+========================
 17/04
 ========================
 * Linux v4.19.279 (stable)
