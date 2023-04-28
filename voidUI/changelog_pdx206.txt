@@ -1,0 +1,152 @@
+========================
+24/04
+========================
+* Linux v4.19.280 (stable)
+* Drop Qualcomm WFD
+* Update Hotword permissions
+- Add an option to force LTE CA
+(LTE Carrier Aggregation, means to connect to several LTE in same time)
+- Add back APT-X prebuilts | Thanks to t.me/candy2001 for testing / reporting
+- vendor_custom-preference: Fixup change related to SwitchPreference
+- [Bugfix]Switch back to the application on /system when UID and path changed
+- [Bugfix]fix NullPointException when pkg is null
+- [Bugfix]fix NullPointException when PackageInfo's verifiers is null 
+- Return no optmization info for package "android"
+- PowerStatsService: Prevent NPE in BatteryTrigger.
+- Add toggle for 3-button navbar inversion
+- Add toggle for 60Hz refresh rate on battery saver
+- April Sec Patch Merge
+- PE side Translations update
+- April Gapps Update
+- Clean Resync / Clean Rebuild (Was reinstalling system)
+- SystemUI: Make clock & battery clickable again
+- Fixed VPN QS Tile
+- Revert "PixelPropsUtils: Spoof Pixel 7 Pro to some Google apps" 
+- PixelPropsUtils: Don't spoof fewer apps
+- JobScheduler: Respect allow-in-power-save perm
+- PhoneWindowManager: Fix wakeup and long-press actions of assistant key
+- SystemUI: Avoid unnecessary keyguard indication controller recreation
+- MetaKeyKeyListener: Disable locking of toggled modifier keys 
+- InputDevices: Fix Hungarian language overlay
+- InCallController: use click & double click effect for connect and disconnect
+- Telecomm: fix vibrate feedback not being provided with call connect for incoming
+- Change in-call vibration behavior
+- WifiDisplaySource: raise supported resolution to 1920x1080p60
+- WifiDisplaySource: allow overriding max wfd resolution with prop
+- Settings: AppInfo: Add time spent in app from Wellbeing 
+- Immersive Navigation: Add missing fb/SettingsProvider changes
+
+========================
+17/04
+========================
+* Linux v4.19.279 (stable)
+* Move XperiaParts to Home Settings
+* Fix Voice Assist key
+- Add Quick Unlock
+- Fix QS clock overlapping on UI mode change
+- Fix QS mobile icon disappearing on theme switch
+- AuthRippleView: Less Boring Dwell Ripple
+- Avoid unnecessary keyguard indication controller recreation
+- Fix background activity start. 
+- Use lighter material you shades for charging animation
+- Allow scheduling always on display
+(Settings -> Display -> Lock Screen -> Always on display scheldule)
+- vendor/custom-preferences:
+* Rework entirely all custom changes
+* Clean import of ColorPicker with adapting all changes to current enviromnent
+* Clean import of CustomSeekbarPreference
+* Clean import of SwitchPreference
+* Update of ColorPicker, CustomSeekbarPreference to latest versions
+* Cleanup huge amount of unused changes
+- This update fixing charging ripple animations and making Themes looks and work way better
+- device_config: Remove extra pixel launcher search features
+* causes increased drain in non tensor devices
+- Paint: Enable subpixel text positioning by default
+
+========================
+11/04
+========================
+* Clean tree
+* Linux v4.19.280
+* Move CreatorMode & Pauser Charging to XperiaPart (Setting>System)[note: need to clean update]
+* Fix show setting camera button
+* Fix inverted microphone channels for camcorder
+- Beta Themes Rework in Process -
+- SystemUI: Follow light/dark theme in quick settings
+- SystemUI: Add dual-tone light and dark themes for QS
+- SystemUI: Follow light/dark theme in power menu
+- SystemUI: Fix QS mobile icon disappearing on theme switch
+- SystemUI: Match footer actions background with notifications background
+- SystemUI: fix black qqs on keyguard in light theme
+- SystemUI: Apply dark theming to split shade
+- SystemUI: Initialize QS tiles in inactive state
+- SystemUI: Remove nav bar background in QS customizer
+- Settings: Add a black background toggle
+- Settings: Toggle the neutral overlay when we toggle dark bg
+- Settings: add animation to dark mode preference
+- Settings: drop divider in dark mode screen
+- Settings: DarkMode: Use List Preference rather ugly Drop Down
+- SystemUI: Reset to textColorPrimaryInverse for light theme
+- Fix GameSpace Screen Recording
+- Turn on lava lamp or roving spotlight effect for media player
+- VoidUI: Add support of Themes [Beta]
+* Available in Settings - Display - Dark Theme - Use Custom Theme
+* Currently added: Black, Clear (transparent), Vivid, SnowPaintDrop, Espresso
+- Settings: Remove custom header
+- Rework supported Custom Preferences and add big amount of them back
+* Can be used for future various changes
+- PixelPropsUtils: Do not spoof device for ING Italia
+- PixelPropsUtils: Spoof back part of Google Apps to Pixel 5:
+* com.google.android.inputmethod.latin
+* com.google.android.setupwizard
+* com.google.android.googlequicksearchbox
+* com.google.android.apps.googleassistant
+- SystemUI: Do not translate FPS to other languages
+
+========================
+28/03
+========================
+- Clean start on new base | Android 13 QPR2 Release 35
+- Based on Pixel Experience Plus QPR2 Release
+* Linux v4.19.279
+* Enable MGLRU
+* Fix loading calibration from TA (test)
+
+========================
+12/03
+========================
+* Beta implementation of supported display features: HLG | HDR10_PLUS | DOLBY_VISION
+* Remove some gapps packages
+* Use FUSE passthrough mode by default
+* Linux v4.19.276
+
+========================
+VoidUI Tiramisu Project is back!
+========================
+Based on Android 13 QPR1 Release 30
+========================
+Features:
+* GameSpace
+* Own Updater & OTA updates
+* Included ART fixes for best device CPU support & Kryo585 optimizations
+* Per-app volume control
+* Full Screen Navigation mode
+* Full working AOD & Smartspace
+* GameProps with hides for popular games
+* Custom QS Tiles
+* Burn-in protection for status/navbar
+* Latest Crowdin tranlsations for all system customizations
+* Ignore window secure flags (Can make screenshots in any app)
+* And way more...
+
+Device Side Features implemented by VoidUI Team:
+* DC Dimming - Less hurt for your eyes
+* TouchFeature - Control your touchscreen in best way for your apps and games! Available in Gaming and Benchmark Profiles.
+* Qualcomm Perfomance System & Perfomance mode
+* DisplayFeature Service & Support of Vivid, Saturated, Original, P3 and sRGB Display Modes
+* Xiaomi VibratorFeature for proper device Haptics
+* Advanced Dolby Support (Miui Dolby Engine + OnePlus App to control + Dolby AC3 Works with Apple Music)
+* Fixed for Modem crashes in specific environments
+* Using latest Snapdragon LLVM OEM Compiler for kernel compilations
+* And way more...
+========================
