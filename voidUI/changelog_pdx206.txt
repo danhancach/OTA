@@ -1,4 +1,17 @@
 ========================
+29/04
+========================
+* Linux v4.19.282 (stable)
+- Add back android auto in system
+- Enable blur by default
+- Set VENDOR_SECURITY_PATCH To PLATFORM
+- Switch to lz4 for zram
+- Add toggle switch icon 4G/LTE
+- Add dual-tone light and dark themes for QS
+- Follow light/dark theme in power menu
+- Change icon NFC 
+
+========================
 24/04
 ========================
 * Linux v4.19.280 (stable)
