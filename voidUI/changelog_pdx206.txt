@@ -1,4 +1,10 @@
 ========================
+30/04
+========================
+- Upload added a few things that were missing in the April 29 update
+and fix something
+
+========================
 29/04
 ========================
 * Linux v4.19.282 (stable)
