@@ -1,4 +1,12 @@
 ========================
+16/05
+========================
+- Drop qti perf swtich to libperfmgr
+- Change product model to XQAS72
+- Improved scroll smooth
+- Integrate Dolby into XperiaParts menu
+
+========================
 07/05
 ========================
 - Linux v4.19.182 merge ASB-2023-05-05_4.19-stable
