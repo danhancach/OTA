@@ -1,4 +1,9 @@
 ========================
+17/05
+========================
+- Upfix missing something build on 16/5
+
+========================
 16/05
 ========================
 - Drop qti perf swtich to libperfmgr
