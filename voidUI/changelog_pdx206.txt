@@ -1,4 +1,12 @@
 ========================
+10/06
+========================
+- Linux v4.19.182 merge ASB-2023-06-05_4.19-stable
+- Add libperfmgr power sepolicy
+- Fix high touch die on libperfmgr
+- Import chg-pwr-service from stock
+
+========================
 17/05
 ========================
 - Upfix missing something build on 16/5
