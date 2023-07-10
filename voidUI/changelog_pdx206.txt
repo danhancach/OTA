@@ -1,4 +1,12 @@
 ========================
+10/07
+========================
+- Linux v4.19.182 merge ASB-2023-07-05_4.19-stable
+- Back to stock qti perf (balance between battery performance and temperature)
+- Add 670Mhz for GPU freq
+- Sync with last VoidUI and kernelSU source change
+
+========================
 11/06
 ========================
 - Fix enable 120fps Honor of Kings sv CN 
