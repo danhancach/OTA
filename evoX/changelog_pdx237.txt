@@ -1,8 +1,19 @@
+EVOLUTION X 12.3
+ANDROID 17
+PDX237
+=============================
+14/10
+- Improved Adaptive refresh rate
+- Improved dynamic bar
+- Keep HWC video under background blur
+- kernel: kernel: merge ASB-2026-10-05
+=============================
 03/10
-- Fixed haptic feedback for Pixel ringtones.
-- Adjusted vibration intensity levels for touch feedback.
-- Improved Adaptive refresh rate.
-- Updated perfboostsconfig.
-- Added CPU performance limiting and battery monitoring to Xperia Settings.
-- Added on-device OTA updates.
-- Switched to ReSukiSU + SUSFS v2.3.0.
+- Fixed haptic feedback for Pixel ringtones
+- Adjusted vibration intensity levels for touch feedback
+- Improved Adaptive refresh rate
+- Updated perfboostsconfig
+- Added CPU performance limiting and battery monitoring to Xperia Settings
+- Added on-device OTA updates
+- Switched to ReSukiSU + SUSFS v2.3.0
+=============================
