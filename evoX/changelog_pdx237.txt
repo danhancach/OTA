@@ -1,6 +1,16 @@
-EVOLUTION X 12.3
-ANDROID 17
-PDX237
+EVOLUTION X|12.4|UNOFFICIAL
+=============================
+26/11
+- Reworked Dynamic Bar with Samsung animations
+- Unified system and lockscreen blur effects
+- Redesigned Sound Enhancement and improved Sony audio
+- Added portrait speaker mono control
+- Redesigned Updater, GameSpace and Sandbox
+- Improved Xperia Settings with Miuix animations
+- Improved UI performance and responsiveness
+- Improved KT VoLTE provisioning
+- kernel: merge ASB-2026-11-02
+- Switched to BakaSU + SUSFS v2.4.0
 =============================
 14/10
 - Improved Adaptive refresh rate
