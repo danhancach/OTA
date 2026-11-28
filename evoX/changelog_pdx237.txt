@@ -1,5 +1,15 @@
 EVOLUTION X|12.4|UNOFFICIAL
 =============================
+28/11
+- Improved Dynamic Bar notification behavior
+- Restored bounce animation for Quick Settings tiles
+- Restored native overscroll in Xperia Settings, Updater, GameSpace and Sandbox
+- Improved OTA update management
+- Improved ROM and root detection protection
+- Improved automatic keybox validation and updates
+- Switched from custom BakaSU to official BakaSU
+- Fixed WfdService manifest and removed obsolete sensor init command
+=============================
 26/11
 - Reworked Dynamic Bar with Samsung animations
 - Unified system and lockscreen blur effects
